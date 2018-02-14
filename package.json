@@ -1,5 +1,5 @@
 {
-  "name": "themis-quals-migrations",
+  "name": "themis-quals-database",
   "version": "0.1.0",
   "description": "Themis Quals platform database migrations",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/themis-project/themis-quals-migrations.git"
+    "url": "https://github.com/themis-project/themis-quals-database.git"
   },
   "author": "Alexander Pyatkin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/themis-project/themis-quals-migrations/issues"
+    "url": "https://github.com/themis-project/themis-quals-database/issues"
   },
   "dependencies": {
     "knex": "^0.9.0",

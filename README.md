@@ -1,5 +1,5 @@
-# Themis Quals Database
-Themis Quals platform database migrations. Part of [Themis Quals](https://github.com/themis-project/themis-quals) project.
+# VolgaCTF Qualifier database
+VolgaCTF Qualifier platform database migrations.
 
 ## Usage
 
@@ -16,4 +16,4 @@ $ npm run knex -- migrate:rollback
 ```
 
 ## License
-MIT @ [Alexander Pyatkin](https://github.com/aspyatkin)
+MIT @ [VolgaCTF](https://github.com/VolgaCTF)

@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.json('message').notNullable()
     table.string('recipientEmail').notNullable()
     table.string('recipientName').notNullable()
-    table.string('status').notNullable()
+    table.text('status').notNullable()
     table.integer('teamId').references('id').inTable('teams')
     table.integer('supervisorId').references('id').inTable('supervisors')
     table.dateTime('createdAt').notNullable()

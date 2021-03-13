@@ -1,12 +1,12 @@
 
 exports.up = function(knex, Promise) {
   return knex.schema.alterTable('supervisors', function (table) {
-    table.integer('event_history_page_size').nullable()
+    table.integer('eventHistoryPageSize').nullable()
   })
 }
 
 exports.down = function(knex, Promise) {
   return knex.schema.alterTable('supervisors', function (table) {
-    table.dropColumn('event_history_page_size')
+    table.dropColumn('eventHistoryPageSize')
   })
 }
